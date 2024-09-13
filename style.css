@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* .img{
+    background:  url(./assets/1.jpg) gray ;
+    width: 100%;
+    height: 100%;
+} */
+.cafe {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 22%;
+    font-size: x-large;
+}
+
+.cafe_para {
+    padding-top: 90px;
+    font-size: larger;
+    width: 60%;
+}
+
+.board {
+    padding-top: 30px;
+    width: 60%;
+    background: gray;
+}
+
+.bord {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.coffe_img {
+    max-width: 700px;
+}
+
+.hour {
+     margin: auto;
+    width: 56%;
+}
+#eat_drink{
+    /* height: 700px; */
+    background:#e7dede;
+    box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+}
+.eatery{
+    text-align: center;
+    background: lightgray;
+    box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+}
+.drinkry{
+    text-align: center;
+    box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 23px -3px rgba(0,0,0,0.75);
+}
+
+
+
+
+@media (max-width : 767px) {
+    .cafe {
+        width: 60%;
+    }
+
+    .cafe_para {
+        width: auto;
+    }
+
+    .board {
+        width: auto;
+    }
+}
+
+@media (max-width : 349px) {
+    .cafe {
+        width: auto;
+    }
+}
